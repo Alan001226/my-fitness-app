@@ -2,28 +2,28 @@
   "name": "健身打卡 - FitTracker",
   "short_name": "FitTracker",
   "description": "专业的健身打卡应用，支持每日训练记录、组间休息计时、定时提醒和统计分析",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "./",
   "lang": "zh-CN",
   "categories": ["health", "fitness", "lifestyle"],
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "./favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
@@ -31,7 +31,7 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshot-mobile.png",
+      "src": "./screenshot-mobile.png",
       "type": "image/png",
       "sizes": "390x844",
       "form_factor": "narrow"
@@ -47,16 +47,15 @@
       "name": "开始训练",
       "short_name": "训练",
       "description": "快速开始新的训练",
-      "url": "/",
-      "icons": [{ "src": "/favicon.ico", "sizes": "32x32" }]
+      "url": "./",
+      "icons": [{ "src": "./favicon.ico", "sizes": "32x32" }]
     },
     {
       "name": "查看统计",
       "short_name": "统计",
       "description": "查看训练统计数据",
-      "url": "/",
-      "icons": [{ "src": "/favicon.ico", "sizes": "32x32" }]
+      "url": "./",
+      "icons": [{ "src": "./favicon.ico", "sizes": "32x32" }]
     }
   ]
 }
-
